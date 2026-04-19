@@ -355,6 +355,36 @@ a{
     line-height: 1.5;
     color: #a7a7a7;
 }
+
+
+
+
+
+.stats .avatar-block{
+    display: flex;
+    gap: 16px 14px;
+    flex-wrap: wrap;
+    margin-top: 26px;
+}
+.stats .avatar-group{
+    display: flex;
+}
+
+.stats .avatar{
+    width: 16px;
+    height: 16px;
+    margin-left: -3px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: var(--bg-color,#1f3bb1);
+    font-size: 0.7rem;
+    letter-spacing: -0.02rem;
+    color: #fff;
+    font-weight: 450;
+    line-height: 16px;
+    text-align: center;
+}
+
 .stats-trend .separate{
     height: 1px;
     margin-top: 25px;
