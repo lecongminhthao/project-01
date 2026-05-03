@@ -355,11 +355,6 @@ a{
     line-height: 1.5;
     color: #a7a7a7;
 }
-
-
-
-
-
 .stats .avatar-block{
     display: flex;
     gap: 16px 14px;
@@ -385,8 +380,14 @@ a{
     text-align: center;
 }
 
+
+.stats .avatar:first-child{
+    margin-left: 0;
+}
+
+
 .stats-trend .separate{
-    height: 1px;
+    height: 1.2px;
     margin-top: 25px;
     background-color: #e9e9e9;
 }
@@ -429,4 +430,132 @@ a{
     font-size: 1.6rem;
     line-height: 1.88;
     color: #5a6473;
+}
+
+.stats .row-qty{
+    margin-top: 110px;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+
+.stats .qty{
+    font-weight: 600;
+    font-size: 6.4rem;
+    color: #000339;
+}
+
+.stats .qty-desc{
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 27px;
+    color: #7b8087;
+}
+/* Subscription */
+.Subscription{
+    margin-top: 90px;
+}
+.Subscription .body{
+    display: flex;
+    height: 370px;
+    background-color: #063183;
+    border-radius: 20px;
+    position: relative;
+    align-items: center;
+}
+
+.Subscription .info{
+    width: 671px;
+    padding: 0 80px;
+}
+.Subscription .sub-title{
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+.Subscription .desc{
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #fff;
+    opacity: 0.75;
+}
+.Subscription .btn{
+    margin-top: 20px;
+    min-width: 151px;
+    background-color: #fff;
+    color: #002366;
+}
+.Subscription .image{
+    position: absolute;
+    bottom: 0;
+    right: 221px;
+}
+/* footer */
+
+.footer{
+    margin-top: 55px;
+    padding: 50px 0 58px;
+}
+.row{
+    display: flex;
+}
+.footer .row-top{
+    gap: 185px;
+}
+
+.footer .heading{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgba(28, 28, 29, 1);
+}
+.footer .list ,
+.footer .desc
+{
+    margin-top: 42px;
+}
+.footer .item{
+    margin-top: 18px;
+}
+.footer .item a ,
+.footer .desc
+{
+    font-weight: 400;
+    font-size: 1.6rem;
+    white-space: nowrap;
+    color: rgba(122, 122, 126, 1);
+}
+.footer .desc{
+    white-space: normal;
+    line-height: 1.75;
+}
+
+.footer .social{
+    display: flex;
+    margin-top: 40px;
+}
+.footer .social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 3px;
+}
+.footer .social-link:hover{
+    background: #ebebeb;
+}
+.footer .row-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 81px;
+}
+.footer .copyright{
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #c2c2c2;
 }
